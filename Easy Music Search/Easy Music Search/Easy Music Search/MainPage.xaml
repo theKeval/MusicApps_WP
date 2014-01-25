@@ -12,7 +12,10 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
+    
     xmlns:adduplex="clr-namespace:AdDuplex;assembly=AdDuplex.WindowsPhone"
+    xmlns:ctrl="clr-namespace:RateMyApp.Controls;assembly=RateMyApp"
+    
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -23,6 +26,11 @@
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
         
+        <!--<RateMyApp:FeedbackOverlay x:Name="Control_RateMyApp" Grid.RowSpan="2" />-->
+
+        
+
+
         <!-- LOCALIZATION NOTE:
             To localize the displayed strings copy their values to appropriately named
             keys in the app's neutral language resource file (AppResources.resx) then
@@ -111,8 +119,16 @@
             </phone:PivotItem>
         </phone:Pivot>
 
-
+        
+        <!--AdDuplex ad Control-->
         <adduplex:AdControl Grid.Row="1" x:Name="adDuplexAd" AppId="80999" />
+
+
+        <ctrl:FeedbackOverlay x:Name="FeedbackOverlay"
+                              Grid.RowSpan="2"
+                              FeedbackTo="keval.langalia@live.com"
+                              ApplicationName="Easy Music Search"
+                              CompanyName="Think Ahead"/>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

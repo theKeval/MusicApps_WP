@@ -12,7 +12,10 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
+    
     xmlns:ad="clr-namespace:AdDuplex;assembly=AdDuplex.WindowsPhone"
+    xmlns:RateMyApp="clr-namespace:RateMyApp.Controls;assembly=RateMyApp"
+    
     shell:SystemTray.IsVisible="True">
 
     <phone:PhoneApplicationPage.ApplicationBar>
@@ -105,7 +108,16 @@
         </phone:Pivot>
 
 
+        <!--AdDuplex ad Control-->
         <ad:AdControl Grid.Row="1" x:Name="adDuplexAd" AppId="81159" />
+
+
+        <RateMyApp:FeedbackOverlay x:Name="FeedbackOverlay"
+                              Grid.RowSpan="2"
+                              FeedbackTo="keval.langalia@live.com"
+                              ApplicationName="Easy Music Search"
+                              CompanyName="Think Ahead"/>
+
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
