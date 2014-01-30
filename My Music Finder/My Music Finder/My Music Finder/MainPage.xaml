@@ -13,6 +13,8 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
     shell:SystemTray.IsVisible="True"
+    
+    xmlns:ctrl="clr-namespace:RateMyApp.Controls;assembly=RateMyApp"
     xmlns:helper="clr-namespace:My_Music_Finder.Helper">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -84,6 +86,13 @@
                 </phone:LongListSelector>-->
             </phone:PivotItem>
         </phone:Pivot>
+
+
+        <ctrl:FeedbackOverlay x:Name="FeedbackOverlay"
+                              Grid.RowSpan="2"
+                              FeedbackTo="keval.langalia@live.com"
+                              ApplicationName="Easy Music Search"
+                              CompanyName="Think Ahead"/>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

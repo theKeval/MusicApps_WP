@@ -12,6 +12,9 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
+    
+    xmlns:ctrl="clr-namespace:RateMyApp.Controls;assembly=RateMyApp"
+    
     shell:SystemTray.IsVisible="True">
     
     <phone:PhoneApplicationPage.ApplicationBar>
@@ -108,6 +111,13 @@
             </phone:PivotItem>
 
         </phone:Pivot>
+
+
+        <ctrl:FeedbackOverlay x:Name="FeedbackOverlay"
+                              Grid.RowSpan="2"
+                              FeedbackTo="keval.langalia@live.com"
+                              ApplicationName="Easy Music Search"
+                              CompanyName="Think Ahead"/>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
