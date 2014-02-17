@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Easy_Music_Search.Resources;
 using Nokia.Music.Tasks;
+using Microsoft.Phone.Tasks;
 
 namespace Easy_Music_Search
 {
@@ -73,6 +74,12 @@ namespace Easy_Music_Search
         {
             ShowGigsTask task = new ShowGigsTask();
             task.Show();
+        }
+
+        private void RateThisApp(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            MarketplaceReviewTask oRateTask = new MarketplaceReviewTask();
+            oRateTask.Show();
         }
 
         // Sample code for building a localized ApplicationBar
