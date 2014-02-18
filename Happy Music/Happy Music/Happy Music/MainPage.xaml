@@ -98,6 +98,8 @@
             <phone:PivotItem Header="About">
 
                 <StackPanel Orientation="Vertical">
+                    <Button Content="Purchase Music Album" Tap="BtnInApp_tapped" />
+                    
                     <TextBlock TextWrapping="Wrap" Margin="0,10"  Text="This application is all about finding your favourite Music, Artists, Gigs on the best Mix Radio. Moreover if you are not sure what do you want to listen then this app will navigate to the Mixes that is provided free, to listen on Nokia Mix Radio." />
                     <TextBlock TextWrapping="Wrap" Margin="0,10" Text="This application uses Nokia's Mix Radio API to fetch data related to Music." />
                     <TextBlock TextWrapping="Wrap" Margin="0,10" Text="Hope you enjoy Mix Radio..!!" />

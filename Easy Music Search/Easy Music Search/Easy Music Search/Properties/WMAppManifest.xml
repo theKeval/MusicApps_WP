@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{407a9438-b78d-48eb-abe2-487eafa1957c}" Title="Easy Music Search" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Easy_Music_Search author" Description="This app will let you find your favourite Music &amp; Artists from Nokia Mix Radio. Moreover if you are not sure what to listen, then you can start listening Gigs and Mixes on Mix Radio." Publisher="Keval Langalia" PublisherID="{99c17ef2-7bc4-49d1-8f44-d0aa9c5e782c}">
+  <App xmlns="" ProductID="{1aab0a3e-871b-4ebc-bd3c-05e37cb58506}" Title="Easy Music Search" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Easy_Music_Search author" Description="This app will let you find your favourite Music &amp; Artists from Nokia Mix Radio. Moreover if you are not sure what to listen, then you can start listening Gigs and Mixes on Mix Radio." Publisher="Keval Langalia" PublisherID="{99c17ef2-7bc4-49d1-8f44-d0aa9c5e782c}">
     <IconPath IsRelative="true" IsResource="false">MusicPlayerLogo (160x160).png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

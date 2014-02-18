@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{2ef67f4b-5f9b-4373-aa6a-79a6174679d4}" Title="My Music Finder" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Keval Langalia" Description="This application allows user to communicate with Nokia Mix Radio and find user's favourite Music tracks, Artists, Gigs &amp; Mixes." Publisher="Keval Langalia" PublisherID="{bfe3ed7e-d30a-4044-b5d0-4d04738068c1}">
+  <App xmlns="" ProductID="{7655487c-2ec5-47e3-a31f-76baed2c483a}" Title="My Music Finder" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Keval Langalia" Description="This application allows user to communicate with Nokia Mix Radio and find user's favourite Music tracks, Artists, Gigs &amp; Mixes." Publisher="Keval Langalia" PublisherID="{bfe3ed7e-d30a-4044-b5d0-4d04738068c1}">
     <IconPath IsRelative="true" IsResource="false">AppIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

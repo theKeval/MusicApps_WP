@@ -60,6 +60,8 @@
                     <TextBlock Text="Are you looking for specific Music..?" HorizontalAlignment="Center" FontFamily="Candara" FontSize="25" />
                     <TextBox x:Name="txt_musicName" Margin="0,50,0,10" Width="350" />
                     <Button x:Name="btn_searchMusic" Content="Search Music" Tap="btn_searchMusic_Tap" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0" />
+
+                    <Button Content="Purchase Music Album" Tap="BtnInApp_tapped" Margin="0,50,0,0" />
                 </StackPanel>
 
                 <!--Double line list with text wrapping-->

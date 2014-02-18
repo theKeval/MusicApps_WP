@@ -75,7 +75,7 @@
                         </StackPanel>
                     </StackPanel>
 
-                    
+                    <Button Content="Purchase Music Album" Tap="BtnInApp_tapped" />
 
                 </StackPanel>
 
@@ -103,6 +103,7 @@
                     <TextBlock TextWrapping="Wrap" Margin="10,30,0,0" Text="Publisher" />
                     <TextBlock TextWrapping="Wrap" Margin="10,0,0,0" Text="Keval Langalia" />
                     <TextBlock TextWrapping="Wrap" Margin="10,0,0,0" Text="keval.langalia@live.com" />
+                    
                     <Button x:Name="Review" Content="Rate this app" FontSize="15" Width="150" Tap="RateThisApp" />
                     <!--<HyperlinkButton Content="www.Keval.Info" HorizontalAlignment="Left" VerticalAlignment="Top" NavigateUri="http://www.keval.info" />-->
                 </StackPanel>

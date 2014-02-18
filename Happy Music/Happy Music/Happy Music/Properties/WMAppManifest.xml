@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{e415c508-bb55-4174-8b48-29b33a68d432}" Title="Happy Music" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Happy_Music author" Description="This application is for happy-go-lucky Music listeners. Those who love to listen songs and explore the Music Store. Here you can do the same with the help of Nokia Mix Radio." Publisher="Happy_Music" PublisherID="{58cd0543-13d0-4860-be61-860c84449c91}">
+  <App xmlns="" ProductID="{9d34c4e9-63af-4a12-84a4-a591a158f1d9}" Title="Happy Music" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Happy_Music author" Description="This application is for happy-go-lucky Music listeners. Those who love to listen songs and explore the Music Store. Here you can do the same with the help of Nokia Mix Radio." Publisher="Happy_Music" PublisherID="{58cd0543-13d0-4860-be61-860c84449c91}">
     <IconPath IsRelative="true" IsResource="false">AppIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

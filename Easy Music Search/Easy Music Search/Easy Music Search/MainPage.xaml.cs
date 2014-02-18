@@ -11,6 +11,9 @@ using Easy_Music_Search.Resources;
 using Nokia.Music.Tasks;
 using Microsoft.Phone.Tasks;
 
+using Windows.ApplicationModel.Store;
+using Store = Windows.ApplicationModel.Store;
+
 namespace Easy_Music_Search
 {
     public partial class MainPage : PhoneApplicationPage
@@ -76,10 +79,32 @@ namespace Easy_Music_Search
             task.Show();
         }
 
+
+
         private void RateThisApp(object sender, System.Windows.Input.GestureEventArgs e)
         {
             MarketplaceReviewTask oRateTask = new MarketplaceReviewTask();
             oRateTask.Show();
+        }
+
+        private async void BtnInApp_tapped(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/InAppPurchasePage.xaml", UriKind.Relative));
+
+            //try
+            //{
+            //    ListingInformation li = await Store.CurrentApp.LoadListingInformationAsync();
+            //    foreach (string key in li.ProductListings.Keys)
+            //    {
+            //        ProductListing pListing = li.ProductListings[key];
+            //        System.Diagnostics.Debug.WriteLine(key);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    System.Diagnostics.Debug.WriteLine(ex.Message);
+            //}
+            
         }
 
         // Sample code for building a localized ApplicationBar

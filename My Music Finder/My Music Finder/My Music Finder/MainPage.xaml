@@ -70,6 +70,8 @@
                     <TextBlock TextWrapping="Wrap" Margin="10,50,0,0" Text="Publisher" />
                     <TextBlock TextWrapping="Wrap" Margin="10,0,0,0" Text="Keval Langalia" />
                     <TextBlock TextWrapping="Wrap" Margin="10,0,0,0" Text="keval.langalia@live.com" />
+
+                    <Button Content="Purchase Music Album" Tap="BtnInApp_tapped" Margin="0,10" />
                     <!--<HyperlinkButton Content="www.Keval.Info" HorizontalAlignment="Left" VerticalAlignment="Top" NavigateUri="http://www.keval.info" />-->
                 </StackPanel>
 

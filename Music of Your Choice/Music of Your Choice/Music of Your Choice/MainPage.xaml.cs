@@ -81,6 +81,11 @@ namespace Music_of_Your_Choice
             task.Show();
         }
 
+        private void BtnInApp_tapped(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/InAppPurchasePage.xaml", UriKind.Relative));
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

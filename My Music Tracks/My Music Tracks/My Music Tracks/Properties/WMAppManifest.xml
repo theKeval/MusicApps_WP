@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{ac73adcd-2ba8-4fd6-9913-66746e0e8588}" Title="My Music Tracks" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="My_Music_Tracks author" Description="This application works as an interface between Nokia Mix Radio and you. You can search your favourite Music Tracks as well as your favourite Artists Tracks right from here and start listening to them." Publisher="My_Music_Tracks" PublisherID="{1053ca7d-a477-43d6-aeea-31b3616c9c2f}">
+  <App xmlns="" ProductID="{603ece79-7a38-4bb1-93b9-1837325ccca4}" Title="My Music Tracks" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="My_Music_Tracks author" Description="This application works as an interface between Nokia Mix Radio and you. You can search your favourite Music Tracks as well as your favourite Artists Tracks right from here and start listening to them." Publisher="My_Music_Tracks" PublisherID="{1053ca7d-a477-43d6-aeea-31b3616c9c2f}">
     <IconPath IsRelative="true" IsResource="false">AppIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
